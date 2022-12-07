@@ -1,0 +1,430 @@
+header .carousel_slide{
+    width: 100%;
+    height: 50%;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    background-image:url(../img/fondo.jpg);
+}
+   
+nav ul{}
+nav ul li { 
+}
+nav ul li a{
+    font-family: 'Inder', sans-serif;
+}
+nav ul li a i{
+    color: white;
+    font-size: 1.7em;
+    margin-left: 200px;
+} 
+nav .btn-group a {
+    font-family: 'Inder', sans-serif;
+}
+nav #navbarNavDropdown{
+    justify-content: end;
+}
+#all .bot{
+    margin-left: 90px;
+} 
+
+#all .bot img{
+    width: 200px;
+    margin-bottom: 150px;
+    margin: 50px;
+}
+#all h2{
+    width: 40%;
+    color: rgba(78, 61, 194, 1);
+    margin-left: 350px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+}
+#all hr{
+    width: 90%;
+    border: 5px solid  rgb(149, 44, 255);
+    border-radius: 10px;
+    margin-left:60px ;
+    margin-bottom: 60px;
+}
+#all .btn{
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 210px;
+    top: 320px;
+    padding: 0;
+    color: white;
+    background-color:rgb(149, 44, 255) ;
+    }
+    #all .card-body:hover .btn{
+        filter: brightness(1);
+    }
+#all .modal-body{
+    display: flex;
+
+}
+#all .row{
+    width: 90%;
+    margin-left:5% ;
+}
+
+#all .card{
+    display: flex;
+    flex-wrap: wrap;
+}
+#all .modal-dialog{
+    
+    margin-right: 550px;
+}
+#all .modal-content{
+    width: 130%;
+    height: 70vh;
+}
+#all .modal-header{
+  
+}
+#all .modal-body {
+   
+}
+#all .modal-body .im{
+    width: 160%;
+    /*order: 20px greenyellow solid;*/
+}
+#all .modal-body img{
+    width: 100%;
+    height: 80%;
+    margin-top: 30px;
+    
+}
+#all .btn-close{
+    background-color: rgb(149, 44, 255);
+    
+  
+}
+#all .modal-body .texte{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    
+}
+#all .modal-body .texte h4{
+    font-size: 40px;
+    font-weight: 600;
+    color:rgb(149, 44, 255) ; 
+    margin-left: 55px;
+
+}
+#all .modal-body .texte .p1{
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic.ttf') format('truetype');
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    
+}
+#all .modal-body .texte p{
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic.ttf') format('truetype');
+    display: flex;
+    flex-wrap: wrap;   
+}
+#all .modal-footer .btn{
+font-family: 'Inder', sans-serif;
+margin-top: 63px;
+margin-left: 15%;
+width: 50%;
+} 
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+    z-index: 100;
+    position: absolute;
+    top: 70%;
+    right: 7%;
+    border-radius: 10px;
+    
+}
+.cont #btnsumar{
+    border-style: none;
+    width: 30px;
+    
+}
+.cont #btnrestar{
+    border-style: none;
+    width: 30px;
+}
+.cont #msgcontador{
+    width: 30px;
+    height: 10%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+@media screen and (min-width:1400px) {
+    body{
+        outline: auto;
+    }
+    nav{
+        width: 100%;
+        height: 100%;
+        background-image:url(../img/fondo.jpg);
+    }
+    
+    #all .btn{
+        position: absolute;
+        font-family: 'Inder', sans-serif;
+        position: absolute;
+        width: 125px;
+        height: 25px;
+        left: 250px;
+        top: 355px;
+        padding: 0;
+        color: white;
+        background-color:rgb(78, 61, 194) ;
+        }
+       
+    #all .modal-body{
+        display: flex;
+    
+    }
+    #all .row{
+        width: 90%;
+        margin-left:5% ;
+    }
+    
+    #all .card{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #all .modal-dialog{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100px;
+
+    }
+    #all .modal-content{
+    
+        width: 150%;
+        height: 50vh;
+    }
+    #all .modal-header{
+      
+    }
+    #all .modal-body {
+       background-color: rgb(255, 255, 255);
+    }
+    #all .modal-body .im{
+        width: 160%;
+        /*order: 20px greenyellow solid;*/
+    }
+    #all .modal-body img{
+        width: 100%;
+        height: 70%;
+        
+    }
+    #all .btn-close{
+        background-color: rgb(149, 44, 255);
+      
+    }
+    #all .modal-body .texte{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        
+    }
+    #all .modal-body .texte h4{
+        font-size: 40px;
+        font-weight: 600;
+        color:rgb(149, 44, 255) ; 
+        margin-left: 55px;
+    
+    }
+    #all .modal-body .texte .p1{
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.ttf') format('truetype');
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        
+    }
+    #all .modal-body .texte p{
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.ttf') format('truetype');
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    #all .modal-footer{
+        background-color: white;
+        width: 100;
+        height: 10%;
+        
+    }
+    #all .modal-footer .btn{
+    font-family: 'Inder', sans-serif;
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 25%;
+    background-color:rgb(149, 44, 255) ; 
+    } 
+}
+
+@media screen and (max-width:768px) {
+    body{
+    }
+    nav{
+        width: 100%;
+        height: 100%;
+        background-image:url(../img/fondo.jpg);
+    }
+    nav .btn-group{
+        font-family: 'Inder', sans-serif;
+        width: 2px;
+        margin-right:300px ;
+    }
+    nav ul li{
+        margin-left: 10px;
+    }
+    #catego h2{
+        width: 35%;
+        color: rgba(78, 61, 194, 1);
+        margin-left: 180px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+    }
+    #all{
+        
+    }
+    #all hr{
+        width: 90%;
+        border: 5px solid  rgb(149, 44, 255);
+        border-radius: 10px;
+        margin-left:30px ;
+        margin-bottom: 60px;
+    }
+    #all h2{
+        width: 60%;
+        color: rgba(78, 61, 194, 1);
+        margin-left: 150px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+    }
+    #all .btn{
+        position: absolute;
+        font-family: 'Inder', sans-serif;
+        position: absolute;
+        width: 125px;
+        height: 25px;
+        left: 430px;
+        top: 490px;
+        padding: 0;
+        color: white;
+        background-color:rgb(78, 61, 194) ;
+        }
+    #all .modal-body{
+        width: 700px;
+        margin-left: 10%;
+        background-color: rgb(255, 255, 255)
+    
+    }
+    #all .modal-header{
+        width: 700px;
+        margin-left: 10%;
+        background-color: white;
+    }
+    #all .modal-content{
+       width: 350px;
+        border: 0px;
+        background-color: rgba(0, 255, 255, 0);
+    }
+    #all .modal-dialog{
+        width: 100%px;
+        margin-right: 550px;
+    }
+    #all .row{
+        width: 100%;
+        margin-left:5% ;
+        display: block;
+    }
+    
+    #all .card{
+        width: 100%;
+
+    }
+    #all .card-body{
+    }
+    #all .modal-dialog{
+        margin-right: 550px;
+    }
+    #all .modal-content{
+    
+        width: 150%;
+        height: 40vh;
+    }
+
+    #all .modal-body .im{
+        width: 160%;
+        /*order: 20px greenyellow solid;*/
+    }
+    #all .modal-body img{
+        width: 100%;
+        height: 70%;
+        
+    }
+    #all .btn-close{
+        background-color: rgb(149, 44, 255);
+      
+    }
+    #all .modal-body .texte{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        
+    }
+    #all .modal-body .texte h4{
+        font-size: 40px;
+        font-weight: 600;
+        color:rgb(149, 44, 255) ; 
+        margin-left: 55px;
+    
+    }
+    #all .modal-body .texte .p1{
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.ttf') format('truetype');
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        
+    }
+    #all .modal-body .texte p{
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.ttf') format('truetype');
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    #all .modal-footer{
+        background-color: white;
+        width: 700px;
+        margin-left: 10%
+    }
+    #all .modal-footer .btn{
+    font-family: 'Inder', sans-serif;
+    margin-top: -37%;
+    margin-left: -15%;
+    width: 50%;
+    background-color:rgb(149, 44, 255) ; 
+    } 
+}
+
